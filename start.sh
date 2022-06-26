@@ -1,2 +1,2 @@
 #!/bin/sh
-gunicorn main:main --workers 2 --threads 2 --bind 0.0.0.0:42424 --timeout 86400 --worker-class aiohttp.GunicornWebWorker & python3 -m bot
+gunicorn main:main --workers 4 --threads 4 --bind 0.0.0.0:42424 --timeout 86400 --worker-class aiohttp.GunicornWebWorker & python3 -m bot
