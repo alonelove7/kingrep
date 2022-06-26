@@ -8,32 +8,32 @@
     "api_id": {
       "description": "api_id Telegram to develop a robot to receive my.telegram.org ",
       "required": "true",
-      "value": ""
+      "value": "392800"
     },
     "api_hash": {
       "description": "api_hash Telegram to develop a robot to receive my.telegram.org ",
       "required": "true",
-      "value": ""
+      "value": "f7f4316dac3b4959687b46860b44c265"
     },
     "channel_files_chat_id": {
       "description": " Telegram channel chat ID for storing and managing files",
       "required": "true",
-      "value": ""
+      "value": "-1001526486348"
     },
     "channel_username": {
       "description": "Telegram channel username for support",
       "required": "true",
-      "value": ""
+      "value": "King_network7"
     },
     "token": {
       "description": "Telegram robot token for launch .",
       "required": "true",
-      "value": ""
+      "value": "2045343811:AAFK6hL7f1YmjXNcQJSFxZmOmnVYPgwuHaI"
     },
     "domain": {
       "description": "Heroku application domain Example: https://newdlstar.herokuapp.com",
       "required": "true",
-      "value": ""
+      "value": "https://d1.kimo.vip"
     }
   }
 }
