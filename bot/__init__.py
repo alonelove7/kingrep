@@ -140,20 +140,8 @@ async def support_handler(event):
                         
                         
             
-        elif event.is_channel:
-            if event.chat_id == Config.CHANNEL:
-                if event.reply_to:
-                    msg = await event.get_reply_message()
-                    if regex := re.search(r"(\d*)/(\d*)",msg.message):
-                        if regex.group(1) :
-                            user_id = int(regex.group(1))
-                            if "100" in regex.group(1):
-                                user_id = int("-"+regex.group(1))
-                            msg_id = int(regex.group(2))
-                            if await event.client.send_message(entity=user_id, message=event.message, reply_to=msg_id):
-                                await event.client.edit_message(event.chat_id,event.id,f"{event.message.message}\n sended")
+
                         
-                        
-                        
+                                           
             
 client.run_until_disconnected()
